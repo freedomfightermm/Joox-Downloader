@@ -1,5 +1,5 @@
 <?php
-/* set_time_limit(0);
+ set_time_limit(0);
 ignore_user_abort(1);
 if(!$_GET['id']||!$_GET['size']){
 	header('location: index.php');
@@ -33,4 +33,4 @@ if(!$_GET['id']||!$_GET['size']){
 	curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36');
 	$json = curl_exec($ch);
 	curl_close($ch);
-	print $json; */
+	print $json;
